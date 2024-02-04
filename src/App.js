@@ -7,20 +7,18 @@ import Trainee from "./components/Trainee";
 // import "../App.css";
 function App() {
   return (
-    <body>
-      <div>
-        <center>
-          <h2>HAI</h2>
-        </center>
-        <Router>
-          <Routes>
-            <Route path="/" element={<Login />} />
-            <Route path="/tutor" element={<Tutor />} />
-            <Route path="/trainee" element={<Trainee />} />
-          </Routes>
-        </Router>
-      </div>
-    </body>
+    <div>
+      <center>
+        <h2>HAI</h2>
+      </center>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/tutor" element={<Tutor />} />
+          <Route path="/trainee" element={<Trainee />} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 // ReactDOM.render(
