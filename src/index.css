@@ -18,3 +18,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.logo-link {
+  /* Add any styles for the link here */
+  text-decoration: none; /* Remove underline */
+}
+.logo-img {
+  /* Add any styles for the logo image here */
+  padding: 10px;
+  width: 150px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+.bg-custom {
+  background-color: #dbceca !important;
+}

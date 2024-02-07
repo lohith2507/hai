@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "./components/NavBar";
+
 // import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // import Login from "./components/Login";
 // import Tutor from "./components/Tutor";
@@ -19,14 +20,14 @@ function App() {
     //   </div>
 
     <div class="container">
-      <div class="row">
-        <div class="col">
+      <div class="row ">
+        <div class="col bg-custom ">
           <NavBar />
         </div>
       </div>
 
       <div class="row">
-        <div class="col">Body</div>
+        <div class="col">body</div>
       </div>
 
       <div class="row">
