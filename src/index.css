@@ -5,10 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./images/backgroungLogin.png");
+  /* background-image: url("./images/backgroungLogin.png");
   margin-top: 500px;
   background-size: cover;
-  background-position: center;
+  background-position: center; */
 }
 
 /* body {
