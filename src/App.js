@@ -8,11 +8,8 @@ import Trainee from "./components/Trainee";
 function App() {
   return (
     <div>
-      <center>
-        <h2>HAI</h2>
-      </center>
       <Router>
-        <Routes>
+        <Routes >
           <Route path="/" element={<Login />} />
           <Route path="/tutor" element={<Tutor />} />
           <Route path="/trainee" element={<Trainee />} />
@@ -21,11 +18,5 @@ function App() {
     </div>
   );
 }
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
 
 export default App;

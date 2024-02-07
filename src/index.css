@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./images/backgroungLogin.jpg");
+  background-image: url("./images/backgroungLogin.png");
+  margin-top: 500px;
   background-size: cover;
   background-position: center;
 }
